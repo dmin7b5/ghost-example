@@ -40,11 +40,12 @@ NOTE: Homebrew runs on OSX only so you will need to install Git another way than
     cd ghost-example
 ```
 
-* Install required gems
+* Install required gems and checkout git master for submodules
 
 ```
     bundle
     bundle exec berks install --path cookbooks/
+    git submodule foreach --recursive git checkout master
 ```
     
 * Edit Your Hosts File to setup the Ghost local URL
