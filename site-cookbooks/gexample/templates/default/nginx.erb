@@ -1,0 +1,11 @@
+server {
+     listen 80;
+     server_name  "<%= @server_name %>";
+
+     location / {
+             proxy_pass http://127.0.0.1:2368/;
+             proxy_set_header Host $host;
+             proxy_buffering off;
+
+     }
+ }

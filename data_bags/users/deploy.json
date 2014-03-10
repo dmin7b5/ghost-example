@@ -1,0 +1,14 @@
+{
+  "id": "deploy", //or your user name
+  // The following should be the result of openssl passwd -1 plainpasswd
+  // but that's md5 on a mac. Alternatively run mkpasswd -m sha-512 -S mySalt on a linux machine
+  "password": "password",
+  "ssh_keys": [
+    // Copy paste from your ssh public key
+    "YOUR PUBLIC SSH KEY GOES HERE"
+    ],
+  "groups": [ "sysadmin" ],
+  "uid": 2001,
+  "shell": "\/bin\/bash",
+  "comment": ""
+}
