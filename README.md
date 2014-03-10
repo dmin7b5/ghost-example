@@ -37,6 +37,7 @@ NOTE: Homebrew runs on OSX only so you will need to install Git another way than
 
 ```
     git clone --recursive git@github.com:dmin7b5/ghost-example.git
+    cd ghost-example
 ```
 
 * Install required gems
