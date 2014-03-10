@@ -74,7 +74,7 @@ NOTE: Homebrew runs on OSX only so you will need to install Git another way than
 ```
     cd /vagrant/ghost
     sudo npm install -g grunt-cli
-    npm install
+    sudo npm install
     grunt init
 ```
     
