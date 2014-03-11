@@ -81,7 +81,7 @@ NOTE: Homebrew runs on OSX only so you will need to install Git another way than
 * Start Ghost!
 
 ```
-    npm start
+    NODE_ENV=development npm start
 ```
     
 * Go to your Ghost blog and create your Admin account: http://ghost.dev/ghost/.
