@@ -1,7 +1,7 @@
 ghost-example
 =============
 
-While Ghost has a Vagrant project that allows developers to test the latest code, it didn't work for me out of the box, hence the reason for this project.  This project creates a Ghost Blog for testing on an Ubuntu Virtual Machine using VirtualBox.  It uses Vagrant and Chef to install Nginx, node.js, npm, Sqlite, and all other required dependencies.  Note that this pulls from the current Master branch of Ghost, so if the current Ghost build is failing, so will your version of Ghost.  You can check on the current build status of Ghost here:  [Ghost / Travis](https://travis-ci.org/TryGhost/Ghost)
+While Ghost has a Vagrant project that allows developers to test the latest code, it didn't work for me out of the box, hence the reason for this project.  This project creates a Ghost Blog for testing on an Ubuntu Virtual Machine using VirtualBox.  It uses Vagrant and Chef to install Nginx, node.js, npm, Sqlite, and all other required dependencies.  Note that this pulls from the current Master branch of Ghost, so if the current Ghost build is failing, so will your version of Ghost.  I have a series about migrating from Wordpress to Ghost [here](http://blog.jeff-owens.com/migrating-from-wordpress-to-ghost/).  You can check on the current build status of Ghost here:  [Ghost / Travis](https://travis-ci.org/TryGhost/Ghost)
 
 The project has been tested on a Mac, though it should work on Linux and Windows (using Cygwin). YMMV
 
